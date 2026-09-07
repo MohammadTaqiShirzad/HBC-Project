@@ -1,0 +1,32 @@
+09. Student Laptop Comparison Desk
+
+PURPOSE
+Help a student compare a small fictional laptop catalogue against simple needs.
+
+SCREEN
+Catalogue filters, model cards, comparison table and new-model form.
+
+REQUIRED FEATURES
+- Render catalogue cards; search model names and filter maximum budget, minimum RAM and condition.
+- Choose up to 3 models for a side-by-side comparison table; remove models from comparison.
+- Show matching result count and identify the lowest price among selected models, including ties.
+- Add a personal catalogue entry through a validated form.
+
+RULES
+- Name: 2–60 characters; price: positive finite AFN amount; RAM: 4, 8 or 16 GB; storage: 128, 256, 512 or 1024 GB; condition: New or Used.
+- Blank budget means no maximum; blank RAM means no minimum; supplied numeric budget must be positive and finite.
+- A model can be selected once; a fourth selection is blocked; filters do not remove selected models.
+- All models and prices are fictional; no purchasing links or market claims.
+
+STARTER DATA
+Read data.json: it is an array of 5 objects. Field names: id,name,price,ram,storage,condition. IDs identify source records. For new records, choose numeric IDs greater than the largest existing ID and increment them. Any session contribution, loan, booking or shortlist collection starts empty; keep it separate from the source records.
+
+ACCEPTANCE CHECKS (each starts from fresh seed data unless stated)
+- Budget 30000 and minimum RAM 8: models A and B match.
+- Compare A and B: A is lowest at 18000 AFN.
+- Choose any 3 distinct models; a fourth is blocked, while removal allows a new selection.
+
+OPTIONAL EXTENSION
+Add a storage-capacity filter.
+
+Read START-HERE.txt and CSS-GUIDE.txt in the package root. Complete the required features before attempting the extension. All seed names, businesses, prices and records are fictional classroom examples.

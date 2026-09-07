@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "StudyBook A",
+    "price": 18000,
+    "ram": 8,
+    "storage": 256,
+    "condition": "Used"
+  },
+  {
+    "id": 2,
+    "name": "StudyBook B",
+    "price": 26000,
+    "ram": 16,
+    "storage": 512,
+    "condition": "Used"
+  },
+  {
+    "id": 3,
+    "name": "LearnBook C",
+    "price": 32000,
+    "ram": 8,
+    "storage": 512,
+    "condition": "New"
+  },
+  {
+    "id": 4,
+    "name": "LearnBook D",
+    "price": 42000,
+    "ram": 16,
+    "storage": 1024,
+    "condition": "New"
+  },
+  {
+    "id": 5,
+    "name": "BasicBook E",
+    "price": 14000,
+    "ram": 4,
+    "storage": 128,
+    "condition": "Used"
+  }
+]
